@@ -1,0 +1,10 @@
+# Host file contains node names and optionally process quantity per node.
+# MPI will only initialize amount of processes specified with -np flag.
+# If sum of slots in host file is bigger then requested amount
+# some of them will not be used. Slots are taken line by line.
+# If there are not enough slots, an error will be thrown.
+
+localhost slots=8
+
+# host2 slots=3
+# host3 slots=9001
